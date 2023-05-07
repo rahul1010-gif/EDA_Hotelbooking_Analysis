@@ -59,7 +59,6 @@ Null values in column country were replaced by 'others'.
 Null values in column children were replaced by the mean of the column.
 (2) Removing Duplicate rows
 All duplicate rows were dropped.
-
 (3) Converting columns to appropriate data types
 Changed data type of children, company, agent to int type.
 (4) Renaming the columns
@@ -69,6 +68,7 @@ One outlier was found in the average_daily_rate column. Dropping them.
 (5) Creating new columns
 Creating new column Total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Creating new column Total_members by adding adults+children+babies.
+
 Exploratory Data Analysis
 Performed EDA and tried answering the following questions:
 
@@ -97,36 +97,4 @@ Pie Chart.
 Line Plot.
 Heatmap.
 Box Plot
-Analysis:
-Performed analysis and made following conclusions:
 
- 1.) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. 
- 2.) July- August are the most busier and profitable months for both of hotels.  
- 3.) Most popular meal type is BB(Bed and Breakfast).
- 4.) Most of the guests came from european countries, with highest number of guests from Portugal.
- 5.) Agent no. 9 has made most no. of bookings.
- 6.) Most demanded room type is A, but better average daily rate generating rooms H, G and C. Hotels should increase the no. of room types A and H to maximise revenue.
- 7.) Most common stay length is less than 4 days and generally people prefer City hotel for short stay, but for long stays, Resort Hotel is preferred.
- 8.) Guests use different channels for making bookings out of which most preferred way is TA/TO. 
- 9.) Overall average daily rate of City hotel is slightly higher than Resort hotel and no. of bookings of City hotel is also higher than Resort hotel. Hence, City hotel is makes more revenue.
- 10.) Cancelation rate is higher in city hotel. With lead time more than 100 there is more possibility of cancellation.
- 11.) Both hotels have very small percentage that customer will repeat.
- 12.) Arrivals in hotels increases at weekends and also the average daily rate tends to go up as month ends. 
- 13.) Moslty bookings are done by couples(bookings have two adults.)
-Conclusion
-(1) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall average daily rate of City hotel is slightly higher than Resort hotel.
-(2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.
-(3) Most of the guests came from european countries, with most of guests coming from Portugal.
-(4) It's clearly seen that the most people preferred room is Type A, . Also, the average daily rate of type A rooms seems to be less. But, those whose average daily rate is higher i.e.(Type C,G,F,H) it's seen that preference is also less, hotel need to improve on this.
-(5) Retention rate of both the hotel is very low need to think on that too.
-(6) We should also target months between May to Aug. Those are peak month for Hotel revenue generation. 
-(7) Within a month, average daily rate gradually increases as month ends, with small sudden rise on weekends.
-(8) Couples are the most common guests for hotels, hence hotels can plan services according to couples needs to increase revenue.
-(9) For customers, generally the longer stays (more than 15 days) can result in better deals in terms of low average daily rate.
-(10) November, December, January and February are the months which has least bookings so in this periods you can get rooms with less average daily rate.
-And many more conclusion
-Challenges
-(1) Lot of null values were present in the dataset.
-(2) Data type of some Data was in wrong format.
-(3) Lot of duplicate data.
-(4) Which visualization techniques to use was a challenge?
